@@ -1,0 +1,13 @@
+path module :
+
+console.log(path.dirname("C:/Users/Yashp/OneDrive/Desktop/node js codes/path module = path/index.js"));
+// it is use for see the path of your dirname
+-------------------------
+console.log(path.basename("C:/Users/Yashp/OneDrive/Desktop/node js codes/path module = path/index.js"));
+//it tell the file name
+-------------------------
+console.log(path.extname("C:/Users/Yashp/OneDrive/Desktop/node js codes/path module = path/index.js"));
+// it tell the extension of the file    
+-------------------------
+console.log(path.parse("C:/Users/Yashp/OneDrive/Desktop/node js codes/path module = path/index.js"));
+// it is use to make all details in object (dirname,root,extname,basename,name)

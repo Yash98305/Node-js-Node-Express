@@ -1,0 +1,33 @@
+npm module:
+
+in terminal write "npm init" for start the server of npm and it will create json file
+package name: (npm-module)
+version: (1.0.0)                                                            
+description: yash code    // write                                                  
+entry point: (index.js)                                                     
+test command:                                                               
+git repository:                                                             
+keywords:                                                                   
+author: yash patel              //write                                            
+license: (ISC)  
+
+-------------------------
+
+chalk module:
+npm install chalk
+console.log(chalk.blue("hello"));
+
+-------------------------
+
+validator module: it is use in forms
+npm i validator
+
+-------------------------
+
+nodemon module: this module for automatic run in terminal
+npm i nodemon
+
+note: go to C:\Users\Yashp\AppData\Roaming\npm and delete the nodemon.ps1 file then it work
+
+in terminal write "nodemon filenamr"
+ for exit ctrl+c

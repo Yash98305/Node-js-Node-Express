@@ -1,0 +1,18 @@
+os module:
+console.log(os.arch());  //tell the architecture of your os like 64 bit
+-----------------------
+console.log(os.hostname()); //tell the hostname of your pc like Yash_Patel
+-----------------------
+console.log(os.platform()); //tell the platform of your pc like window(win32)
+-----------------------
+console.log(os.tmpdir()); //tell the path of your tmp directory
+-----------------------
+console.log(os.type()); //tell the type of your pc like windows_NT
+-----------------------
+const freeMemory=os.freemem();
+console.log(freeMemory); // output = 638996480 bytes
+console.log(`${freeMemory/1024/1024/1024}`); // output = 0.4533843994140625 0gb memory is free
+-----------------------
+const totalMemory=os.totalmem();
+console.log(totalMemory); // output = 7887228928 bytes
+console.log(`${totalMemory/1024/1024/1024}`); // output = 7.345554351806641 7gb tota memory

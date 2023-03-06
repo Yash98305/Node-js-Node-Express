@@ -1,0 +1,10 @@
+fs module:
+fs.writeFileSync(path, content); // it delete previous file content and write the new one in the file.
+---------------------------
+fs.appendFileSync(path, content); it append the content to the file.
+---------------------------
+const data=fs.readFileSync("read.txt");
+console.log(data.toString());  // it is for read if we not use ,to string method then the output is in binary format(buffer).
+---------------------------
+fs.renameSync("read.txt","write.txt"); // it rename the file.
+---------------------------

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-family: 'Baloo Bhaina 2', cursive;
+
+            color: black;
+        }
+
+        body {
+            background-color: rgb(246, 243, 243);
+        }
+
+        header {
+            /* border: 2px solid rgb(0, 0, 0); */
+            width: 100%;
+            height: 65px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+        }
+
+        #logo {
+            /* border: 2px solid rgb(0, 0, 0); */
+            height: 50px;
+            width: 230px;
+            background-image: url(/img/download\ \(1\).webp);
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+
+        #menu {
+            /* border: 2px solid rgb(0, 0, 0); */
+            height: 50px;
+            width: 700px;
+
+        }
+
+        #menu li a {
+            text-decoration: none;
+            text-decoration-color: red;
+            text-decoration-thickness: 12% 0%;
+            font-weight: 600px;
+            font-size: 19px;
+            color: black;
+            /* transition: all 1s ease-in; */
+        }
+
+        /* #menu li a:hover{
+        text-decoration: underline;
+        text-decoration-color: red;
+        text-decoration-thickness: 12%;
+    
+    } */
+        #menu ol li::after {
+            content: '';
+            width: 0%;
+            height: 3px;
+            background: red;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+            position: relative;
+            bottom: 12px;
+        }
+
+        #menu ol li:hover::after {
+            width: 100%;
+        }
+
+
+
+        #menu li {
+            list-style: none;
+
+        }
+
+        #menu ol {
+            margin-top: 9px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+        }
+
+        #services {
+            /* border: 2px solid rgb(0, 0, 0); */
+            height: 50px;
+            width: 230px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #services img {
+            height: 18px;
+            width: 30px;
+        }
+
+        #services div a {
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 525;
+            color: rgba(0, 0, 0, 0.587);
+        }
+
+        .box {
+            /* border: 2px solid black; */
+
+            margin: 10px;
+            margin-top: 15px;
+            margin-right: 0px;
+            width: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    {{>header}}
+        <h1> hi this is about page </h1>
+</body>
+</html>

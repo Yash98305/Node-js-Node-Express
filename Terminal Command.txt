@@ -1,0 +1,10 @@
+cls : clear the terminal
+dir : for see all directory
+type nul > index.js : make a null file name index.js
+node : for start the node server
+.help : for help in nodejs
+.exit : exit for node server
+.editor : for open the editor
+        ctrl+d : for output of editor
+click tab two times : for all the keywords
+fs : for all the method in node

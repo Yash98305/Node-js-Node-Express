@@ -1,0 +1,7 @@
+play with json file:
+
+JSON.stringify(mydata); // it convet object to json
+
+--------------------------
+
+JSON.parse(mydatajson); // it convert json to object
